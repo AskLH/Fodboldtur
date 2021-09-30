@@ -11,8 +11,10 @@ def afslut():
     print("Programmet er afsluttet!")
 
 def printliste():
-    for item in fodboldtur.items():
-        print(item)
+    count = 0
+    for dude in fodboldtur.keys():
+        print(count, dude)
+        count += 1
     menu()
 
 def menu():
